@@ -6,7 +6,7 @@
 
 import Foundation
 
-public enum SFSymbol: String, CaseIterable, Codable {
+public enum SFSymbol: String, CaseIterable, Codable, Sendable {
   case sf_00_circle
   case sf_00_circle_fill
   case sf_00_square

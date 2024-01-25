@@ -19,7 +19,7 @@ cat <<EOT >> $relative_target_file_path
 
 import Foundation
 
-public enum SFSymbol: String, CaseIterable, Codable {
+public enum SFSymbol: String, CaseIterable, Codable, Sendable {
 EOT
 
 while IFS= read -r line; do
