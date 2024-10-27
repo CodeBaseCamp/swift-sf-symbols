@@ -62,7 +62,7 @@ cat <<EOT >> $relative_target_file_path
 import Foundation
 
 public extension SFSymbol {
-  enum Category: String, CaseIterable, Hashable {
+  enum Category: String, CaseIterable, Hashable, Sendable {
 EOT
 
 for i in "${categories[@]}"; do 

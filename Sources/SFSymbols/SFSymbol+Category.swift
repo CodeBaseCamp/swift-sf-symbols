@@ -7,7 +7,7 @@
 import Foundation
 
 public extension SFSymbol {
-  enum Category: String, CaseIterable, Hashable {
+  enum Category: String, CaseIterable, Hashable, Sendable {
     case accessibility
     case all
     case arrows
